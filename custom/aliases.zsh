@@ -12,5 +12,5 @@ alias gco='git checkout'
 alias vless="/usr/share/vim/vim72/macros/less.sh"
 
 # Rails 3
-alias rc="rails console"
-alias rs="rails server"
+alias rc="./script/rails console"
+alias rs="./script/rails server"
