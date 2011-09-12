@@ -10,7 +10,3 @@ alias gco='git checkout'
 
 # Vim pager
 alias vless="/usr/share/vim/vim72/macros/less.sh"
-
-# Rails 3
-alias rc="./script/rails console"
-alias rs="./script/rails server"
