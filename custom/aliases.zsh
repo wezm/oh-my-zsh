@@ -8,6 +8,11 @@ alias gd='git diff'
 alias gf='git fetch'
 alias gco='git checkout'
 
+# Tig
+alias t='tig'
+alias ts='tig status'
+alias tb='tig blame'
+
 # Vim pager
 alias vless="/usr/share/vim/vim73/macros/less.sh"
 
