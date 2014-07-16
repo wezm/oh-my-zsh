@@ -23,3 +23,6 @@ alias capsd="cap staging deploy"
 alias capps="cap production ssh"
 alias cappc="cap production console"
 alias cappd="cap production deploy"
+
+# Other
+alias ff='mdfind -onlyin . -name'
