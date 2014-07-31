@@ -26,3 +26,5 @@ alias cappd="cap production deploy"
 
 # Other
 alias ff='mdfind -onlyin . -name'
+alias fff='mdfind -name'
+alias ffff='mdfind -onlyin .'
