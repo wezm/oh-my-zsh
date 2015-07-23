@@ -7,14 +7,19 @@ alias ga='git add'
 alias gd='git diff'
 alias gf='git fetch'
 alias gco='git checkout'
+gmo () {
+  git merge "origin/$(current_branch)"
+}
+alias gcob='git checkout -b'
 
 # Tig
 alias t='tig'
 alias ts='tig status'
 alias tb='tig blame'
 
-# Vim pager
+# Vimish stuff
 alias vless="/usr/share/vim/vim73/macros/less.sh"
+alias vf="vifm"
 
 # Capistrano
 alias capss="cap staging ssh"
@@ -28,3 +33,6 @@ alias cappd="cap production deploy"
 alias ff='mdfind -onlyin . -name'
 alias fff='mdfind -name'
 alias ffff='mdfind -onlyin .'
+
+# Rails
+alias ttr='touch tmp/restart.txt'
