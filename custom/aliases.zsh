@@ -36,3 +36,9 @@ alias ffff='mdfind -onlyin .'
 
 # Rails
 alias ttr='touch tmp/restart.txt'
+
+# Projects, mnemonic: j = jump
+alias jb='cd ~/Work/bellroy'
+alias jbl='cd ~/Work/bellroy-logistics'
+alias jbm='cd ~/Work/bellroy-magento'
+alias jr='cd ~/Work/Radiopaedia'
