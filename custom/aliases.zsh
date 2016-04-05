@@ -42,3 +42,11 @@ alias jb='cd ~/Work/bellroy'
 alias jbl='cd ~/Work/bellroy-logistics'
 alias jbm='cd ~/Work/bellroy-magento'
 alias jr='cd ~/Work/Radiopaedia'
+alias jm='cd ~/Projects/Musicast'
+alias jl='cd ~/Projects/pkb'
+
+# Cargo
+alias cb='cargo build'
+alias ct='cargo test'
+alias cr='cargo run'
+alias cu='cargo update'
