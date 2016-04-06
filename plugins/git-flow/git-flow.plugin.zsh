@@ -5,8 +5,8 @@
 #
 # To achieve git-flow completion nirvana:
 #
-#  0. Update your zsh's git-completion module to the newest verion.
-#     From here. http://zsh.git.sourceforge.net/git/gitweb.cgi?p=zsh/zsh;a=blob_plain;f=Completion/Unix/Command/_git;hb=HEAD
+#  0. Update your zsh's git-completion module to the newest version.
+#     From here. https://raw.githubusercontent.com/zsh-users/zsh/master/Completion/Unix/Command/_git
 #
 #  1. Install this file. Either:
 #
@@ -17,8 +17,14 @@
 #
 #            source ~/.git-flow-completion.zsh
 #
-#     c. Or, use this file as a oh-my-zsh plugin.
+#     c. Or, use this file as an oh-my-zsh plugin.
 #
+
+#Alias
+alias gfl='git flow'
+alias gcd='git checkout develop'
+alias gch='git checkout hotfix'
+alias gcr='git checkout release'
 
 _git-flow ()
 {
@@ -88,6 +94,8 @@ __git-flow-release ()
 				'start:Start a new release branch.'
 				'finish:Finish a release branch.'
 				'list:List all your release branches. (Alias to `git flow release`)'
+				'publish: public'
+				'track: track'
 			)
 			_describe -t commands 'git flow release' subcommands
 			_arguments \
@@ -113,6 +121,16 @@ __git-flow-release ()
 						-k'[Keep branch after performing finish]'\
 						-n"[Don't tag this release]"\
 						':version:__git_flow_version_list'
+				;;
+
+				(publish)
+					_arguments \
+						':version:__git_flow_version_list'\
+				;;
+
+				(track)
+					_arguments \
+						':version:__git_flow_version_list'\
 				;;
 
 				*)
