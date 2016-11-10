@@ -1,6 +1,3 @@
-# RSpec
-alias spec="spec -c"
-
 # Git
 alias gs='git status'
 alias ga='git add'
@@ -39,6 +36,7 @@ alias ffff='mdfind -onlyin .'
 
 # Rails
 alias ttr='touch tmp/restart.txt'
+unalias rg
 
 # Projects, mnemonic: j = jump
 alias jb='cd ~/Work/bellroy'
