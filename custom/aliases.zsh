@@ -11,6 +11,9 @@ gmo () {
   git merge "origin/$(current_branch)"
 }
 alias gcob='git checkout -b'
+gpuo () {
+  git push -u origin $(current_branch)
+}
 
 # Tig
 alias t='tig'
