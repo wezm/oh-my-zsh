@@ -1,6 +1,4 @@
-if /usr/bin/which -s pbpaste; then
-  alias gclp="git clone '$(pbpaste)'"
-fi
+# alias gclp="git clone '$(clippaste)'"
 
 function pivotal_id() {
   current_branch | grep -Eo '\d{5,}$'
