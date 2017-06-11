@@ -47,3 +47,11 @@ alias cb='cargo build'
 alias ct='cargo test'
 alias cr='cargo run'
 alias cu='cargo update'
+
+# Override default oh-my-zsh directories aliases with exa ones
+# https://the.exa.website/
+unalias lsa
+alias l='exa'
+alias ll='exa -l'
+alias la='exa -la'
+
