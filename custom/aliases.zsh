@@ -39,10 +39,6 @@ alias ttr='touch tmp/restart.txt'
 unalias rg
 
 # Projects, mnemonic: j = jump
-alias jb='cd ~/Work/bellroy'
-alias jbl='cd ~/Work/bellroy-logistics'
-alias jbm='cd ~/Work/bellroy-magento'
-alias jr='cd ~/Work/Radiopaedia'
 alias jm='cd ~/Projects/Musicast'
 alias jl='cd ~/Projects/pkb'
 
