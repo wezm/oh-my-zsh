@@ -50,8 +50,10 @@ alias cu='cargo update'
 
 # Override default oh-my-zsh directories aliases with exa ones
 # https://the.exa.website/
+unalias ls
 unalias lsa
 alias l='exa'
+alias ls='exa'
 alias ll='exa -l'
 alias la='exa -la'
 
