@@ -1,1 +1,1 @@
-bindkey -v # vi mode
+bindkey -e # emacs mode
