@@ -48,12 +48,14 @@ alias ct='cargo test'
 alias cr='cargo run'
 alias cu='cargo update'
 
-# Override default oh-my-zsh directories aliases with exa ones
-# https://the.exa.website/
-unalias ls
-unalias lsa
-alias l='exa'
-alias ls='exa'
-alias ll='exa -l'
-alias la='exa -la'
-
+which exa 2>&1 > /dev/null
+if [[ $? -eq 0 ]]; then
+  # Override default oh-my-zsh directories aliases with exa ones
+  # https://the.exa.website/
+  unalias ls
+  unalias lsa
+  alias l='exa'
+  alias ls='exa'
+  alias ll='exa -l'
+  alias la='exa -la'
+fi
