@@ -1,4 +1,5 @@
 # Git
+unalias grv
 alias gs='git status'
 alias ga='git add'
 alias gd='git diff'
