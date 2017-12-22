@@ -60,3 +60,5 @@ if [[ $? -eq 0 ]]; then
   alias ll='exa -l'
   alias la='exa -la'
 fi
+
+alias zswap='sudo grep -R . /sys/kernel/debug/zswap'
