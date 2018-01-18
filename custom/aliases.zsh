@@ -19,7 +19,7 @@ alias ts='tig status'
 alias tb='tig blame'
 
 # Vimish stuff
-alias vless="/usr/share/vim/vim73/macros/less.sh"
+alias vless="/usr/share/nvim/runtime/macros/less.sh"
 alias vf="vifm"
 
 # Capistrano
