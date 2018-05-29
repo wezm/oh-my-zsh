@@ -62,3 +62,5 @@ if [[ $? -eq 0 ]]; then
 fi
 
 alias zswap='sudo grep -R . /sys/kernel/debug/zswap'
+
+alias ip='ip --color'
