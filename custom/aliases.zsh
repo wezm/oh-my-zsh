@@ -13,6 +13,11 @@ gpuo () {
   git push -u origin $(current_branch)
 }
 
+# Arch/AUR
+aurget () {
+  git clone https://aur.archlinux.org/${1}.git
+}
+
 # Tig
 alias t='tig'
 alias ts='tig status'
